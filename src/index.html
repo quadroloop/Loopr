@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Loopr</title>
+	<link rel="stylesheet" href="./css/loopr.css">
+	<link rel="stylesheet" href="./css/swiper.css">
+	<link rel="stylesheet" href="./css/font-awesome.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+</head>
+<body>
+        
+<div class="swiper-container">
+<div class="swiper-wrapper">
+
+<!-- sender	 -->
+<div class="swiper-slide">
+	<center>
+	<h1 id="logo">&#9650;<span id="rcount">0</span></h1>
+	<p class="text-label"><i class="fa fa-circle page-icon"></i> <span id="rmode">SINGLE REQUEST MODE<span></p>
+    </center>
+	<button id="send" class="btn btn-hover color-1 main-btn"><i class="fa fa-send"></i> SEND</button>
+
+</div>
+
+<!-- api list -->
+<!-- <div class="swiper-slide scroll">
+	 <h3 class="page-header"><i class="fa fa-cube page-icon"></i> API List</h3>
+	 <hr class="divider">
+	  <ul id="apis">
+	 	<li><i class="fa fa-code-fork page-icon"></i> 192.168.1.1:400/apiv1</li>
+	 	<i class="fa fa-times" class="close"></i>
+	 </ul>
+	
+</div> -->
+
+<!-- request settings  -->
+<div class="swiper-slide scroll">
+	 <h3 class="page-header"><i class="fa fa-cog page-icon"></i> Request Settings</h3>
+	 <hr class="divider">
+<small class="text-label"><i class="fa fa-circle page-icon"></i> ROUTE</small>
+	 	<input type="text" placeholder="Route" id="route" class="input">
+
+	 	<small class="text-label"><i class="fa fa-circle page-icon"></i> LOOP / ms (Speed of Reuqest in miliseconds)</small>
+	 	<input type="text" placeholder="Speed" id="speed" class="input" value="1000">
+
+	 		<button id="aloop" class="btn btn-hover color-8 fixed-btn"><i class="fa fa-circle"></i> Activate Loop</button>
+
+</div>
+
+<!-- response -->
+<!-- <div class="swiper-slide scroll">
+   <h3 class="page-header"><i class="fa fa-code page-icon"></i> Response</h3>
+   <hr class="divider">
+</div> -->
+
+</div>
+<div class="swiper-pagination"></div>
+</div>
+
+</body>
+<script src="./js/swiper.js"></script>
+<script type="text/javascript" src="./js/axios.js"></script>
+<script src="./js/app.js"></script>
+
+</html>

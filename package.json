@@ -1,0 +1,26 @@
+{
+  "name": "loopr",
+  "version": "0.0.1",
+  "description": "Making API Development Fun",
+  "main": "loopr.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quadroloop/Loopr.git"
+  },
+  "keywords": [
+    "api",
+    "tester"
+  ],
+  "author": "Bryce Mercines",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/quadroloop/Loopr/issues"
+  },
+  "homepage": "https://github.com/quadroloop/Loopr#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
